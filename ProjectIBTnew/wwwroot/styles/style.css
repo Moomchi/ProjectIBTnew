@@ -1,0 +1,97 @@
+html {
+}
+body{
+	color: white;
+	background-color: #FF9500;
+
+}
+h1{
+	margin: 75px;
+	color: red;
+	font-size: 50px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+.logo{
+	position:absolute;
+	top: 10px;
+	left: 25px;
+}
+p{
+	font-size: 30px;
+	text-align: center;
+}
+
+img {
+	display: block;
+}
+
+.name{
+	font-size: 20px;
+	text-align: center;
+}
+.description{
+	font-size: 20px;
+	text-align: center;
+	margin:10px;
+}
+.panel{
+	border: 5px solid black;
+	width: 350px;
+	height:650px;
+	float: left;
+	background: red;
+	margin:1em;
+	padding: 1em;
+	position: relative;
+}
+.moviepicture{
+	margin: 0 auto;
+}
+.price{
+	color:black;
+	position:absolute;
+	bottom: 0px;	
+}
+@media screen and (max-width: 1200px) {
+	.logo{
+		display:none;
+	}
+}
+.login {
+	text-align: right;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+
+.loggedIn {
+	text-align: right;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+
+}
+.loggedInAdmin {
+	text-align: right;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	right: 0;
+}
+#footer1 {
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	background-color: brown;
+}
+
